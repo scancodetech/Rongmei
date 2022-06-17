@@ -1,0 +1,76 @@
+.registerPage {
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+    position: fixed;
+}
+
+.genderBanner {
+    height: 200px;
+    margin-top: 30%;
+}
+
+.registerPage .genderBanner .am-grid .am-flexbox {
+    background-color: transparent;
+}
+
+.registerPage .birthdayBanner .DataPickList {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.registerPage .birthdayBanner .DataPickList.am-list-item {
+    background-color: black;
+    min-height: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.registerPage .birthdayBanner .DataPickList .am-list-content {
+    color: white;
+}
+
+.registerPage .birthdayBanner .DataPickList .am-list-extra {
+    flex-basis: 100%;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.registerPage .birthdayPicker .am-picker-popup-body {
+    /* background-color: #111111; */
+    color: white;
+}
+
+.registerPage .birthdayPicker .am-picker-popup-item {
+    color: #FE2341;
+}
+
+.registerPage .submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.registerPage .submit .am-button {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: #fe2341;
+    color: white;
+    font-size: 18px;
+}
+
+html:not([data-scale]) .registerPage .submit .am-button::before {
+    border: 0;
+}
+
+.registerPage .submit .am-button.am-button-active {
+    opacity: 0.8;
+}
+
+.registerPage .submit .am-button.am-button-disabled {
+    background-color: #FFB3BD;
+    opacity: 1;
+}

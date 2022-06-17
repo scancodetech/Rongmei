@@ -1,0 +1,30 @@
+.certificationPage {
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-color: #111111;
+}
+
+.certificationBarCode {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../../assets/barcode.png');
+    background-size: 100% 100%;
+}
+.CertificationSearchBarChange .am-search-input{
+    background-color: #333333;
+}
+.CertificationSearchBarChange .am-search {
+    background-color: #111111;
+}
+.CertificationSearchBarChange .am-search-cancel{
+    color: white;
+}
+.CertificationSearchBarChange .am-search-input input[type="search"]{
+    color: white;
+}
+.certificationNullIcon{
+    background-image: url('../../../../assets/certificationNull.png');
+    width: 180px;
+    height: 180px;
+    background-size: 100% 100%;
+}

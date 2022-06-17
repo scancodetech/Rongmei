@@ -1,0 +1,63 @@
+.CHHPage {
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+    color: white;
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    /* padding-bottom: 60px; */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.CHHPage .recommend {
+    width: calc(100VW - 30PX);
+    height: 140px;
+    /* align-items: center; */
+    /* overflow: scroll; */
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.CHHPage .recommend .recommendItem {
+    width: 125px;
+    height: 135px;
+    background-color: #333333;
+    border-radius: 7px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.CHHPage .recommend .recommendItem .itemName {
+    position: absolute;
+    height: 20px;
+    top: 93px;
+    width: 50px;
+    left: 10px;
+    border-radius: 5px;
+    background-color: #FE2341;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+.CHHPage .total {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 100%;
+    /* background-color: blueviolet; */
+    min-height: 400px;
+}
+
+.CHHPage .total .totalItem {
+    width: 100%;
+    min-height: 375px;
+    background-color: #333333;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}

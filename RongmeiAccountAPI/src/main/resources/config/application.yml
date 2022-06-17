@@ -1,0 +1,104 @@
+logging:
+  level:
+    org.springframework:
+      data: DEBUG
+      security: DEBUG
+jwt:
+  claimKey:
+    username: "username"
+    authorities: "authorities"
+  secret: "wfhg9hr-1jfpjf-p3j-=vgf0pvmo3k=2-3rj0-3j=gn[=3-g[mj"
+  header: Authorization
+  tokenHead: "Bearer "
+spring:
+  jpa:
+    database: mysql
+    properties:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rongmeiresume?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+  aop:
+    auto: true
+    proxy-target-class: false
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 0
+      max-file-size: 1000Mb
+      max-request-size: 1000Mb
+  mail:
+    host: smtp.exmail.qq.com
+    username: zhanglingzhe@tlqtech.com
+    password: Zlz0820
+    default-encoding: UTF-8
+    port: 465
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          port: 465
+          ssl:
+            trust: smtp.exmail.qq.com
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            fallback: true
+  profiles:
+    active: dev
+email:
+  sender: "zhanglingzhe@tlqtech.com"
+  subject: "跨次元账号注册邮箱认证"
+  content1: "亲爱的用户： 您好!
+            您正在注册跨次元账号，请在验证码输入框中输入："
+  content2: "以完成注册。"
+aliyun:
+  accessId: LTAIiBkqPz1H2cvW
+  accessSecret: x1trmDLR3EdgJMHwyq8YCAsAfxHsep
+  sms:
+    signName: 艺趣教育
+    templateCode: SMS_159235294
+tencentcloud:
+  accessId: AKIDUlmXKTl2UihPvDC2areBXcQzJNBk5iQm
+  accessSecret: tlMkst1xd2B4j7G9oCJcePmspZDblAKC
+  sms:
+    appId: 1400447922
+    signId: 崇新数字
+    templateId: 775818
+alipay:
+  appId: 2021002131623826
+  merchantPrivateKey: "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDPMGMPa4tqYqt7TczGQFgc1sOUgdpVSE5jgN2keFhoiXLAWq0Q19O8EDGW6JZCFtlS16VYnNX4wzvYm8QCDzq/g2PaaucHHcRg/Raj6QIs5XtkTWODCJaccJs/xkrteeSbXTrjNj2aVo8oOzwZpWDoB9fuhvjai8BLZIvxorf/cXggmiVHRf+CVUvP+Lq+SE2FTTTWrVccbrDrZ9vrjKeqHFXzC4aX0CjAGWm1UfHvaLQwtvpzrg62IEF/GJMniFWChRsYZuWdzROgC4/d5o2L5qKwGhMrFRhsp6cI4O24uY5uKT5rYoXuWTiqL7YVQKFmSlunjGv9jaBPeVA9po+XAgMBAAECggEASG2D05omzHPdumcCFLPdmYdCK6IRLwrtzD76PEqNrU2PPcr1ARRRwkZu73AzRrsyEZGtDYMWEbY+L4SUSpwET3qg53PDe2tegQE4bug/iG5YakHbba0M6Xc77lllTAr2bZFzyoXllxR3SvsaEWUMsVA8nfe0+sEr4a8udLQLWlIxEgU/msLP6Ae33uch2oaK2cdZ2x0m1j6uo7iPNDZH6lV9ipd4bulODUTS13bRxBKKGXf+aMs33LdqhP1ZFjrIT0GkKB0m0IBwKVxYWGlpuPkBlgCtq1g4Ijbujt5+1ebAuZimMDq8rE3S6PhUjfDRDoskPeaVCrS1ZmOubB1ZoQKBgQDyFGFp3Va3cQMsrdFUPdux9ZtlTEfg9PQcDFJpi31KZ87o9FO7A/8csTsMgQyJS63sNur+i15tKZpP98zm41445EtahZW7NW37/d595G7TJ5mzCEy5uFll5tSqalajADJcSrUmUC+NzqY/M+MLjII/Md2qfvp/iPweOsFUJIiD/wKBgQDbGmMKqS0AB5TD8gEhsevdr7eriEMRaivti4hI0jLaHLgeN1wQ9vTnx8TRl0zhtnn4F3O1orNApbfEM5pFZtQFISo6ChNOairshp1rIsUkI8XVlghDY99wKm4TU9FoU/FjWHh/yunhUSDH0U9xUcYa4EfrlnKO9Tr/IT53xqeUaQKBgBtx4BFmfJxTfa6lDiRk1vF4DOQRH90LKFm9s+IvZEb5OeYDPTLooxWXqkAiqU8ve0pad43gMxZhLxN93ocWo+oDR9+9YVpWFmAJSh4vtbjOtogrmrc7hTceUmH3qFbWgN8hwSPU129WTFbCBS2cAnAzsRPRTYkD+MFcm+p0Md31AoGBALdpPlF1TwtATWM92X6oXwbjioAX//S7COzAKiSzeQgmlGYO943n/RltnC/LVPt5cl6g2ybIfP93+f5PKCxCqOdmXN/bAVBaBXacNXiy0Y6wN3LVNjObjjZp/l1Fg/2uj1oXfD+Vz/TioetDJxp4Vrq21t26wkkzteBOpulDLZNJAoGBAJcD6mjvbUBUW4TRm+L0HIn9LdwY5Q0KJvEfDn+a+1u8avVzxb43Qo6ELsA3dzMEBohPkcil2f4qQJP8JgkVOHuS8pHWf4Mb5sGkMJCa+43NwEtn/B4fPdV3AcIEtOXHARv0ewyeWJy5VKrZokLH1L6hm2YKvrV9eSzSqKJJhe4B"
+  alipayPublicKey: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkP9XjxiGTYQAn1ZLkLsKhdcGmYBmONNTP0/ZysGYuLsvMSdGT7ovcjJZ54LcRElME1FvnoUGqxA1q4qDoJYk4rXzwQ0PU941QS39KtO4Elw4HkUMw4raNz7vdQuBT8hWYvdth1FBZG2MwUXMJYO+dekGMYxu208xUeuZbIgFPI7K9ezhEIVWbAO20zJVScl8+HNbAtHbXgX3BHx04I3jp3z/Xhqc21c5HDYe6d2bHmMKTASyfuwN6nWX/ftwr13V1wkDSaxFK86lkB/Yv/lADKmczRJzDbb76dupCP2A4so0NHadjZ33wfRW5NbZXHUKbklSwA9fjGGOzwiugE5hfQIDAQAB"
+  notifyUrl: "http://rongmeitech.com:6789/pay/alipay/notify"
+  returnUrl: "http://rongmeitech.com:6789/pay/alipay/notify"
+  signType: "RSA2"
+  charset: "utf-8"
+  subject: "积分充值"
+wechat:
+  pay:
+    appId: wxed275441ac17bc31
+    mchId: 1604659423
+    mchKey: eiVLZafH5L9NrpgePGTdNq9ie13d9lrK
+    notifyUrl: https://api.dimension.pub/rongmei_account_api_prod/pay/wechat/notify
+    keyPath: /Users/surevil/Documents/private/RongmeiAccountAPI/1604659423_20210311_cert/apiclient_cert.p12
+    v3:
+      mobile:
+        app-id: wxed275441ac17bc31
+        app-secret: ff3d387c6f0153ecc4e46e11ec2605ff
+        app-v3-secret: bC2c3yVdTS3ZJ3OKyaS28mUuP1MEE5iY
+        mch-id: 1604659423
+        domain: https://api.dimension.pub/rongmei_account_api_prod/pay/wechat/notify
+        cert-path: 1604659423_20210311_cert/apiclient_cert.p12
+
+
+

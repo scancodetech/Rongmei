@@ -1,0 +1,73 @@
+.QHHWalletPage {
+    min-height: calc(100VH - 50px);
+    background-color: #111111;
+    color: white;
+}
+
+.QHHWalletPage .ListChange {
+    height: auto;
+    width: 100%;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.QHHWalletPage .ListChange .am-list-body {
+    background-color: #111111;
+}
+
+.QHHWalletPage .ListChange .am-list-item {
+    background-color: black;
+    border-radius: 0;
+    /* padding-top: 10px; */
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.QHHWalletPage .ListChange .am-list-item .am-list-line .am-list-content {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+.QHHWalletPage .ListChange .am-list-item .am-list-line .am-list-extra{
+    color: #FE2341;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.QHHWalletPage .ListChange .am-list-item .am-list-line {
+    padding: 8px 10px;
+}
+
+/* 删除组件中多余的边框白线 */
+/* html:not([data-scale]) .am-list-item:not(:last-child) .am-list-line::after{
+    height: 0;
+} */
+html:not([data-scale]) .QHHWalletPage .ListChange .am-list-body div:not(:last-child) .am-list-line::after {
+    height: 0;
+}
+
+html:not([data-scale]) .QHHWalletPage .ListChange .am-list-body::before {
+    height: 0;
+}
+
+html:not([data-scale]) .QHHWalletPage .ListChange .am-list-body::after {
+    height: 0;
+}
+
+.QHHWalletPage p{
+    color: #999999;
+    padding: 3px 0;
+    font-weight: 600;
+}
+.QHHWalletPage .BtnChange .am-button{
+    width: 85px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #FFFF00;
+    line-height: 28px;
+    background-color: transparent;
+    color: #FFFF00;
+}
+.QHHWalletPage .BtnChange .am-button.am-button-active{
+    background-color: #222222;
+}

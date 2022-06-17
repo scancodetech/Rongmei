@@ -1,0 +1,128 @@
+:global .am-list-line {
+  padding: 0;
+}
+
+/* 修改样式小BUG */
+.playgroundChange .am-list-item {
+  border-radius: 0;
+}
+
+
+.playgroundChange .introText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* padding-right: 10px; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.showMoreIntroChange .am-modal-content {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.showMoreIntroWrapChange {
+  height: calc(100VH - 50px);
+}
+
+.homeCommentModal .am-modal-close {
+  top: 5px;
+  right: 5px;
+}
+
+html:not([data-scale]) .homeCommentModal .am-list-body::before,
+html:not([data-scale]) .homeCommentModal .am-card.am-card-full::before,
+html:not([data-scale]) .homeCommentModal .am-card.am-card-full::after,
+html:not([data-scale]) .homeCommentModal .am-list-body::after,
+html:not([data-scale]) .am-card-body::before {
+  height: 0;
+}
+
+.homeCommentModal .am-card-header-content img {
+  margin-left: 5px;
+}
+
+.homeCommentModal .am-card-header {
+  /* padding: 0; */
+}
+
+.homeCommentModal .am-card-body {
+  padding: 10px 0px;
+  margin-left: 45px;
+  font-size: 12px;
+}
+
+.homeCommentModal .commentInputItem .am-list-item {
+  min-height: 35px;
+  height: 35px;
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  width: 275px;
+}
+
+.homeCommentModal .commentInputItem .am-list-item .am-input-control input {
+  font-size: 15px;
+}
+
+.PlaygroundSearchModal {
+  background-color: #111;
+}
+
+/* .PlaygroundSearchModal .am-modal-wrap{
+  background-color: #111;
+} */
+
+.PlaygroundSearchModal .am-search {
+  background-color: #111;
+}
+
+.PlaygroundSearchModal .am-search-cancel {
+  color: #FFF;
+}
+
+.PlaygroundSearchModal .am-card {
+  background-color: #111;
+  min-height: 60px;
+  padding-bottom: 0;
+}
+
+.PlaygroundSearchModal .am-card-header-extra {
+  flex: none;
+}
+
+.PlaygroundSearchModal .followBtn .am-button {
+  width: 80px;
+  height: 25px;
+  background-color: #fe2341;
+  color: white;
+  line-height: 23px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.PlaygroundSearchModal .followBtn .am-button.am-button-active{
+  opacity: 0.8;
+}
+
+html:not([data-scale]) .PlaygroundSearchModal .am-list-body::before,
+html:not([data-scale]) .PlaygroundSearchModal .am-list-body::after,
+html:not([data-scale]) .PlaygroundSearchModal .am-card.am-card-full::before,
+html:not([data-scale]) .PlaygroundSearchModal .am-card.am-card-full::after {
+  height: 0;
+}
+
+html:not([data-scale]) .PlaygroundSearchModal .followBtn .am-button .am-button::before {
+  border: 0;
+}
+html:not([data-scale]) .am-button::before{
+  border: 0;
+}
+
+.PlaygroundSearchModal .am-search-input{
+  border-radius: 20px;
+  background-color: #414141;
+}
+.PlaygroundSearchModal .am-search-input input[type="search"]{
+  color: white;
+}

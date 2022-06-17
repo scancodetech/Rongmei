@@ -1,0 +1,132 @@
+.inSharePage {
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-color: #111111;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.inSharePage .Banner {
+    background-image: url('../../../assets/mineShareCodeBg.png');
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+}
+
+.inSharePage .Banner .body {
+    background-image: url('../../../assets/mineShareCodeBody.png');
+    height: 285px;
+    width: 320px;
+    background-size: cover;
+    margin-top: 10px;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.inSharePage .Banner .body::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../../assets/mineShareCodeRole.png');
+    background-size: cover;
+    width: 122px;
+    height: 127px;
+    right: -10px;
+    top: -110px;
+    /* background-color: tomato; */
+}
+
+.inSharePage .Banner .body .shareCodeBorder {
+    width: 62px;
+    height: 62px;
+    background-image: url('../../../assets/mineShareCodeTextBorder.png');
+    background-size: 100% 100%;
+    color: black;
+    text-align: center;
+    line-height: 62px;
+    font-size: 30px;
+}
+
+.inSharePage .Banner .body .Btn .am-button {
+    position: absolute;
+    /* left: 50%; */
+    bottom: 0px;
+    /* transform: translateX(-50%); */
+    border-radius: 0 0 10px 10px;
+    left: 15px;
+    width: 291px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    font-size: 15px;
+    background: linear-gradient(to left, #FF5028, #FD0000);
+}
+
+.inSharePage .Banner .body .Btn .am-button.am-button-active {
+    opacity: 0.8;
+}
+
+.inSharePage .Banner .bottom {
+    width: 100VW;
+    height: auto;
+    padding: 10px;
+    /* background-color: rgba(17, 17, 17, 0.7); */
+    position: relative;
+}
+
+.inSharePage .Banner .bottom .title::before,
+.inSharePage .Banner .bottom .title::after {
+    content: '';
+    background-color: white;
+    flex: 1;
+    height: 1px;
+    margin: 0 15px;
+    align-self: center;
+}
+
+/* .inSharePage .Banner .bottom .divider::before{
+
+} */
+/* .inSharePage .Banner .bottom .divider::after{
+    margin-left: 10px;
+} */
+
+.inSharePage .Banner .bottom .title {
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.inSharePage .Banner .bottom>.itemContainer {
+    /* padding: 10px; */
+    width: 100%;
+    height: auto;
+    color: black;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.inSharePage .Banner .bottom>.itemContainer .rowItemleft{
+    margin-right: 2%;
+}
+.inSharePage .Banner .bottom>.itemContainer .am-list-body{
+    background-color: inherit;
+}
+html:not([data-scale]) .inSharePage .Banner .bottom .itemContainer .am-list-body::before{
+    height: 0;
+}
+html:not([data-scale]) .inSharePage .Banner .bottom .itemContainer .am-list-body::after{
+    height: 0;
+}

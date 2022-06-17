@@ -1,0 +1,90 @@
+.customizedPage {
+    min-height: calc(100VH - 50px);
+    width: 100%;
+    background-color: #111111;
+    color: white;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.pickerListChange {
+    min-height: 30px;
+    width: 200px;
+    height: 30px;
+    flex-basis: 100%;
+    text-align: center;
+    background-color: #333333;
+    border-radius: 3px;
+}
+
+.pickerListChange .am-list-line .am-list-extra {
+    flex-basis: 100%;
+    text-align: center;
+    color: white;
+}
+
+.pickerListChange .am-list-line .am-input-control input {
+    color: white;
+    font-size: 15px;
+
+}
+
+.customizedPage .am-list-item.am-input-item {
+    height: 30px;
+}
+
+/* .imagePickerChange{
+    overflow: hidden;
+} */
+.imagePickerChange .am-image-picker-list .am-image-picker-upload-btn {
+    border: 0;
+    background-color: #333333
+}
+
+.imagePickerChange .am-image-picker-list .am-image-picker-upload-btn-active {
+    background-color: #222222
+}
+
+.imagePickerChange .am-image-picker-list {
+    padding: 0;
+}
+
+.rule>div {
+    font-size: 12px;
+    padding: 3px 0;
+    font-weight: 600;
+    /* word-wrap:normal; */
+}
+
+.customizedPage .TextareaChange .am-list-item {
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+.customizedPage .TextareaChange .am-list-item {
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+.customizedPage .TextareaChange .am-textarea-control textarea {
+    color: white;
+    font-size: 16px;
+}
+
+.customizedPage .TextareaChange .am-textarea-control textarea:disabled {
+    background-color: #333333;
+    color: #999999;
+}
+
+.customizedPage .submitBtn .am-button {
+    width: 100vw;
+    border-radius: 0;
+    color: white;
+    background-color: #fe2341;
+}
+.customizedPage .submitBtn .am-button.am-button-active {
+    opacity: 0.8;
+}

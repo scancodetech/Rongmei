@@ -1,0 +1,51 @@
+server:
+  port: 8000
+logging:
+  level:
+    org.springframework:
+      data: DEBUG
+      security: DEBUG
+jwt:
+  claimKey:
+    username: "username"
+    authorities: "authorities"
+  secret: "wfhg9hr-1jfpjf-p3j-=vgf0pvmo3k=2-3rj0-3j=gn[=3-g[mj"
+  header: Authorization
+  tokenHead: "Bearer "
+spring:
+  jpa:
+    database: mysql
+    properties:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rongmeidistribution?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  aop:
+    auto: true
+    proxy-target-class: false
+  profiles:
+    active: prod
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 0
+      max-file-size: 1000Mb
+      max-request-size: 1000Mb
+aliyun:
+  accessId: LTAIiBkqPz1H2cvW
+  accessSecret: x1trmDLR3EdgJMHwyq8YCAsAfxHsep
+  sms:
+    signName: 艺趣教育
+    templateCode: SMS_159235294
+qrcode:
+#  url: http://127.0.0.1.72:8000?code=
+  url: http://m.dimension.pub/#/picmobile/login?code=
+file:
+#  url: http://127.0.0.1:8000/static/
+  url: http://42.192.14.102:8000/static/

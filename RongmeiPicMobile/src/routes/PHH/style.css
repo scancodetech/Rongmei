@@ -1,0 +1,68 @@
+.phhPage {
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-color: #111111;
+    /* color: white; */
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* 删除组件中多余的边框白线 */
+/* html:not([data-scale]) .am-list-item:not(:last-child) .am-list-line::after{
+    height: 0;
+}
+html:not([data-scale]) .am-list-body div:not(:last-child) .am-list-line::after {
+    height: 0;
+} */
+
+/* html:not([data-scale]) .am-list-body::before {
+    height: 0;
+}
+
+html:not([data-scale]) .am-list-body::after {
+    height: 0;
+} */
+
+
+.phhListChange .am-list-body {
+    background-color: #111111;
+}
+
+.phhListChange .am-list-item {
+    background-color: black;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.phhListChange .am-list-item .am-list-line .am-list-content {
+    color: white
+}
+
+.phhListChange .am-list-item .am-list-line {
+    padding: 8px 20px 8px 8px;
+}
+
+html:not([data-scale]) .phhListChange .am-list-body::before {
+    height: 0;
+}
+
+html:not([data-scale]) .phhListChange .am-list-body::after {
+    height: 0;
+}
+
+.phhListChange .am-list-item.am-list-item-active {
+    background-color: #333333;
+}
+
+html:not([data-scale]) .phhListChange .am-list-body div:not(:last-child) .am-list-line::after {
+    height: 0 !important;
+}
+
+.PHHCarouselChange {
+
+}
+
+.PHHCarouselChange.am-list-item {
+    background-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,234 @@
+.listContainer {
+  width: 100%;
+  padding: 0;
+}
+
+.headTitle {
+  height: 32px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+// 导航栏样式
+.antMenuItem {
+  :global {
+    .ant-menu-item {
+      padding-left: 70px !important;
+      padding-right: 70px !important;
+    }
+  }
+}
+.antMenuItemSale{
+  :global {
+    .ant-menu-item {
+      padding-left: 120px !important;
+      padding-right: 120px !important;
+    }
+  }
+}
+
+
+// 以下为拍品管理/铸造部分的样式
+.generalInfo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.uploadArea {
+  :global {
+    .ant-upload-select-picture-card {
+      width: 165px;
+      height: 165px;
+      border-radius: 15px;
+    }
+  }
+
+}
+
+.uploadAreaSmall {
+  :global {
+    .ant-upload-select-picture-card {
+      width: 145px;
+      height: 145px;
+      border-radius: 15px;
+    }
+  }
+}
+
+.antuploadtext {
+  font-size: 20px;
+  font-weight: 600;
+  color: red;
+}
+
+.changeSelect {
+  :global {
+    .ant-select-selector {
+      border-radius: 5px !important;
+      border: 1px solid #d9d9d9 !important;
+      // line-height: 34px;
+    }
+  }
+}
+
+.edit{
+  width: 240px;
+}
+
+.editText{
+  font-weight: 600;
+  font-size: 16px;
+  width: 240px;
+}
+
+.editInput{
+  border-radius: 5px;
+  width: 240px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.updataFilechange{
+  :global{
+    .ant-upload{
+      height: 200px !important;
+      background-color: #eeeeee;
+    }
+  }
+}
+
+.bottomBtn{
+  color: white;
+  background-color: #FE2341;
+  font-weight: 600;
+  letter-spacing:0.1em;
+  // font-size: 18px;
+  width: 130px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+// 以下为 新增竞价 样式
+.uploadContainer{
+  width: 100%;
+}
+.wrapperchange{
+  :global{
+    .ant-input-affix-wrapper{
+      border-radius: 5px;
+    }
+  }
+}
+
+
+
+
+// 铸造列表样式
+.auctionItem {
+  display: flex;
+  width: 100%;
+
+  .itemImg {
+      flex: 0 0 auto;
+      position: relative;
+      height: 200px;
+      width: 150px;
+      border-radius: 4px;
+      background-color: rgba(22, 24, 35, 0.3);
+      overflow: hidden;
+      cursor: pointer;
+      object-fit: cover;
+  }
+
+  .itemInfo {
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .itemTitle {
+          font-size: 24px;
+          font-weight: 400;
+          color: #333333;
+          line-height: 40px;
+      }
+      .itemDescription {
+          display: -webkit-box;
+          text-overflow: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+      }
+
+      .itemFigure {
+          margin-top: 12px;
+          display: flex;
+
+          .view {
+              margin-right: 20px;
+          }
+          .download{
+              margin-right: 20px;
+          }
+      }
+
+      .itemPrice {
+          color: #fe2341;
+          display: flex;
+          margin: 10px 0;
+
+          .price {
+              margin-right: 20px;
+          }
+      }
+
+      .itemData {
+          margin-top: 12px;
+          height: 18px;
+          font-size: 14px;
+          font-weight: 400;
+          color: #999999;
+          line-height: 24px;
+          display: flex;
+
+          .status {
+              color: #398DFF;
+              margin-right: 12px;
+          }
+      }
+  }
+
+  .bottomOpts {
+      display: flex;
+      align-self: flex-end;
+      margin-top: auto;
+  }
+
+  .itemResale {
+      display: flex;
+      align-items: center;
+      margin-left: 28px;
+
+      .resaleText {
+          padding-left: 8px;
+      }
+  }
+
+  .itemDelete {
+      color: #fe2341;
+      display: flex;
+      align-items: center;
+      margin-left: 28px;
+
+      .deleteText {
+          padding-left: 8px;
+      }
+  }
+
+  .reUpload {
+      display: flex;
+      align-items: center;
+      margin-left: 28px;
+  }
+
+}

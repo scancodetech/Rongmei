@@ -1,0 +1,123 @@
+.qhhPage {
+    width: 100%;
+    background-color: #111111;
+}
+
+/* .orderPage {
+    height: 100%;
+    width: 100%;
+    background-color: #111111;
+} */
+/* .TabsChange{
+    background-color: black;
+}
+.tabsChange .am-tabs-default-bar-content{
+    background-color: black;
+    font-weight: 600;
+}
+.tabsChange .am-tabs-default-bar-tab-active{
+    color: #FFFF00 !important;
+}
+.tabsChange .am-tabs-default-bar-tab{
+    color: white;
+} */
+/* .tabsChange .am-tabs-default-bar-underline {
+    color: #FFFF00;
+} */
+html:not([data-scale]) .qhhPage .tabsChange .am-tabs-default-bar-top .am-tabs-default-bar-tab::after {
+    height: 0;
+}
+
+.qhhPage .tabsChange .am-tabs-default-bar-underline {
+    border: 1px solid #FFFF00;
+}
+
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.qhhPage .drawerBanner {
+    width: 100%;
+    padding: 30px 15px 20px 15px;
+    color: white;
+}
+
+.qhhPage .drawerBanner .CardClassChange .am-card.am-card-full {
+    background-color: transparent;
+}
+
+html:not([data-scale]) .qhhPage .drawerBanner .CardClassChange .am-card.am-card-full::before {
+    height: 0;
+}
+
+html:not([data-scale]) .qhhPage .drawerBanner .CardClassChange .am-card.am-card-full::after {
+    height: 0;
+}
+
+.qhhPage .drawerBanner .CardClassChange .am-card-header-content {
+    color: white;
+    font-size: 14px;
+}
+
+html:not([data-scale]) .qhhPage .drawerBanner .CardClassChange .am-card-body::before {
+    height: 0;
+}
+
+.qhhPage .drawerBanner .QDDBanner {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-image: url('../../assets/qhhQDDBg.png');
+    background-size: 100% 100%;
+    padding: 0 15px;
+}
+.qhhPage .drawerBanner .QDDBanner .BtnChange .am-button{
+    width: 50px;
+    height: 20px;
+    background-color: #FE2341;
+    color: white;
+    line-height: 20PX;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.qhhPage .settingListChange{
+    height: auto;
+    width: 100%;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.qhhPage .settingListChange .am-list-body{
+    background-color: #111111;
+}
+
+.qhhPage .settingListChange .am-list-item {
+    background-color: black;
+    border-radius: 0;
+    /* padding-top: 10px; */
+    /* margin-bottom: 10px; */
+    padding-left: 0;
+}
+.qhhPage .settingListChange .am-list-item .am-list-line .am-list-content{
+    color:white;
+    font-size: 12px;
+
+}
+.qhhPage .settingListChange .am-list-item .am-list-line{
+    /* padding: 8px 10px; */
+}
+
+/* 删除组件中多余的边框白线 */
+/* html:not([data-scale]) .am-list-item:not(:last-child) .am-list-line::after{
+    height: 0;
+} */
+html:not([data-scale]) .qhhPage .settingListChange .am-list-body div:not(:last-child) .am-list-line::after{
+    height: 0;
+}
+html:not([data-scale]) .qhhPage .settingListChange .am-list-body::before{
+    height: 0;
+}
+html:not([data-scale]) .qhhPage  .settingListChange .am-list-body::after{
+    height: 0;
+}

@@ -1,0 +1,122 @@
+.topicDetailPage {
+    min-height: calc(100VH - 50px);
+    background-color: #111111;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.topicDetailPage .searchBarChange .am-search {
+    height: 35px;
+    background-color: #333333;
+}
+
+.topicDetailPage .searchBarChange .am-search-cancel {
+    color: #dddddd;
+}
+
+.topicDetailPage .searchBarChange .am-search-input {
+    background-color: transparent;
+}
+
+.topicDetailPage .searchBarChange .am-search-input input[type="search"] {
+    color: white;
+}
+
+.topicDetailPage .am-card {
+    background-color: transparent;
+}
+
+html:not([data-scale]) .topicDetailPage .am-card.am-card-full::before {
+    height: 0;
+}
+
+html:not([data-scale]) .topicDetailPage .am-card.am-card-full::after {
+    height: 0;
+}
+
+.topicDetailPage .collection {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #333333;
+    display: flex;
+    align-self: flex-end;
+    border-radius: 3px;
+    text-align: center;
+    justify-content: center;
+}
+
+.topicDetailPage .collection:hover,
+.topicDetailPage .collection:active,
+.topicDetailPage .collection-active{
+    background-color: #fe2341;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    align-self: flex-end;
+    border-radius: 3px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.topicDetailPage .title {
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    padding: 0 0 10px 0;
+}
+
+.topicDetailPage .introText {
+    width: 100%;
+    height: auto;
+    color: #999999;
+    letter-spacing: 1px;
+}
+
+
+.topicDetailPage .itemContainer {
+    /* padding: 10px; */
+    width: 100%;
+    height: auto;
+    color: black;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.topicDetailPage .itemContainer .rowItemleft {
+    margin-right: 2%;
+}
+
+.topicDetailPage .itemContainer .am-list-body {
+    background-color: inherit;
+}
+
+html:not([data-scale]) .topicDetailPage .itemContainer .am-list-body::before {
+    height: 0;
+}
+
+html:not([data-scale]) .topicDetailPage .itemContainer .am-list-body::after {
+    height: 0;
+}
+
+.topicDetailPage .BtnChange .am-button {
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #fe2341;
+    color: white;
+}
+
+
+
+html:not([data-scale]) .topicDetailPage .BtnChange .am-button::before {
+    border: 0;
+}

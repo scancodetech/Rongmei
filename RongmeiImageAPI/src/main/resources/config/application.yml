@@ -1,0 +1,61 @@
+logging:
+  level:
+    org.springframework:
+      data: DEBUG
+      security: DEBUG
+jwt:
+  claimKey:
+    username: "username"
+    authorities: "authorities"
+  secret: "wfhg9hr-1jfpjf-p3j-=vgf0pvmo3k=2-3rj0-3j=gn[=3-g[mj"
+  header: Authorization
+  tokenHead: "Bearer "
+spring:
+  jpa:
+    database: mysql
+    properties:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rongmeiresume?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  aop:
+    auto: true
+    proxy-target-class: false
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 0
+      max-file-size: 1000Mb
+      max-request-size: 1000Mb
+  profiles:
+    active: prod
+aliyun:
+  accessId: LTAIiBkqPz1H2cvW
+  accessSecret: x1trmDLR3EdgJMHwyq8YCAsAfxHsep
+  sms:
+    signName: 艺趣教育
+    templateCode: SMS_159235294
+tencentcloud:
+  accessId: AKIDUlmXKTl2UihPvDC2areBXcQzJNBk5iQm
+  accessSecret: tlMkst1xd2B4j7G9oCJcePmspZDblAKC
+  sms:
+    appId: 1400447922
+    signId: 崇新数字
+    templateId: 775818
+alipay:
+  appId: 2021001167692742
+  merchantPrivateKey: "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCe9c1uXb9PLbDN+iPUqkKT/4KwBRIGHCGTFhUqc2iJd81+4QszEtDOR2hl81HPGGkm6tar8h6inAV/pAMr7M7tSDHyd8a3BQfAQ9xu85SO+x8s0Js/ySksNuqKDGIH1VaE09r1euoXi9LLiB9f8BM7nr2hvixIaUktSH/t7MDu1KHJXI2NZRNeVu7Oq6aqgXPVnttLN5XJFjgQdQes9jUhoalY2dPyzjicqFmDjXYFbF3gl2b9T5YCvUAg74VzlgmV14rMrPkwcKMRLDJJwcxKJK7SGymHi2spTUTAAOC7nq6PjP8vDZEZNop4SUT4OKCwK+eL8B+h4uE2GpEezWiLAgMBAAECggEAcAnv8YpB/RzHMWbNOmeG5amCA26PdZ7+Sx2VbYZKeBnozTTxH95zLfFGtBT75GvgMX30MN1GmnY9qemAEsWmU7g+/BdQCE+TVwB9rfYhD2YQYxXlVuACFRff181CiyLjCFwKSFuKA26Z9LrM4mHkLHGGVyojLCaJXVFsWdY1Zh97sje0G3KW6iy73yuFu6i5UEdJsQQE5EHtb5j7xBtr45CKX2eCRLGtxJQDBgaNGCvmpIRNak7yb75sQTIebgwz0zrECF1rnY/usRQJk00OU6gCtvfw43FrjgXg2jdesiDX2uRbbNsloW7C4lvgApU9QQxjuacWqqFORMKZD0gkgQKBgQDXNblbFiGL4Hs+yu/tx0uhir9E1Sw+fSlRYto0SaeCr4Brn17p2bbnhdc5dclCI5S4WMAxexgNVG7+uVEE1R8qaluC6oOgAh3w6kkBd2+gfbaWoGYvd0MzLm2xf5IiUMCzdc0GNV6Y2avZK70pGY79Xp3OvvkO7MPRzVfOqemrJQKBgQC9FsQ8vAmGFz4rjyzuUVniSt68AzmYg6nEFkreOOG3ruQRY14szSowxwBB3xI3ynivGuOc0iG9AWNLEoBxuJBmOPh86jkFgEgqHxGvaA20y4IZcPXuS64y1wqWiDZjB/+1yBpLs2rxhypej4CoKNpowmH/8EkszrQo0yn8yxLN7wKBgQDRloeytqXrBK7iY18w0ePNKkPGNFlHbjtcAIqDW6vgcSz/IxGbayVe6xDE6/oaCG7g7cYXKkstSCpktnO54hjdBQGkSOHxZb5lDrYU0I2M3oGAxiteVKbEZJX9xEC8XKqe273VKwq6j1p2QMuTCEoiZRAI9iG2ME0wuOun4AAqZQKBgQC2GRi/DK93TSb4OBgjIoEXZtb95XUwJYv2ZSmQvOLTTEAjZripGKQK+XqL9VHMHNcAezq8KbmIFbAT+itsWTvm1fKoCcEERTg6KFWVwPWCKYKPEbQl2whVubZepasK0Ac4fw6j3JOfKnZpPnW+fClqPdi27CbsWdwyfLmw07i2TQKBgFF4Q/HyeY4UyMWxqAih9OPUr+1nDUdMw90siazsNpgSnuPAZhEsmaOI7aQT4oc1AZkO4K6Cbeadjq1rQv5iZgQmUJuHyfCn/1meA1F5e0GyIFKwxpvocEaGJgvz9/4biyauCwdMUzIGyiftjxYEPUH7OBgChQEte/821Et7Fmw/"
+  alipayPublicKey: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj0S5tRmiFLd7jGkgtC2yA9YnDpLJVO0jijFeFLCd+px3jz/EAiOqsAM0ETcAFmEnUryGo0GJWg8VxygnNHxQyXB8R2/hlpeVo3Xtl8Pn6z36UIFkS47DOFhT37tD4CzlSzPqZA45Bw04nTYQEFmBTXLwaTiNgsq2vWlwIE/xH6Eh4w+NUQTK5BmB7Yh/u7WSI46Fnj866weJlevblLBCYE2Ja6uf1iBo1qYKyo+HACSqcVWxDx1/992kgpyLGw6QE5UrUdmLxXfus4zwhZTVsXp+ih/Tpiw4bZ8SB7sYv6sWFY0oyJ1odJaV009+24tF32kmtVfcuCzrcR+OnVtxXwIDAQAB"
+  notifyUrl: "http://rongmeitech.com:6789/pay/alipay/notify"
+  returnUrl: "http://rongmeitech.com:6789/pay/alipay/notify"
+  signType: "RSA2"
+  charset: "utf-8"
+  subject: "积分充值"
+file:
+  url: http://image.rongmeitech.com/static/

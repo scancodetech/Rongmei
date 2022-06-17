@@ -1,0 +1,68 @@
+.applicationPage {
+    width: 100%;
+    background-color: #111111;
+    height: auto;
+    color: white;
+    min-height: calc(100VH - 50px);
+}
+
+.qhhRowChange div {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.applicationInputItemChange {
+    width: 180px;
+}
+
+.applicationInputItemChange.am-list-item {
+    min-height: 30px;
+}
+
+.applicationInputItemChange.am-list-item.am-input-item {
+    height: 30px;
+}
+
+.applicationInputItemChange.am-list-item {
+    background-color: #333333;
+}
+
+.applicationInputItemChange.am-list-item .am-input-control input {
+    color: white;
+}
+
+.applicationImagePickerChange .am-image-picker-list .am-image-picker-upload-btn {
+    background-color: #333333;
+    border: 0;
+}
+
+.applicationImagePickerChange .am-image-picker-list .am-image-picker-upload-btn:before,
+.am-image-picker-list .am-image-picker-upload-btn:after {
+    width: 2px;
+    height: 25px;
+}
+
+.applicationImagePickerChange .am-image-picker-list .am-image-picker-upload-btn:before,
+.am-image-picker-list .am-image-picker-upload-btn:before {
+    width: 25px;
+    height: 2px;
+}
+
+.applicationButtonChange {
+    width: 110px;
+    height: 30px;
+
+}
+
+.applicationButtonChange .am-button {
+    line-height: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: #FE2341;
+}
+
+.applicationButtonChange .am-button.am-button-active {
+    color: white;
+    background-color: rgba(254, 35, 65, 0.8);
+}

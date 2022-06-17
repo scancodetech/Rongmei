@@ -1,0 +1,10 @@
+server:
+  port: 6789
+
+
+#待修改
+unzipPath: /usr/xx/xxx
+
+
+file:
+  url: https://image.rongmeitech.com/static/

@@ -1,0 +1,8 @@
+.QHHBillDetail{
+    min-height: calc(100VH - 50px);
+    background-color: #111111;
+    color: white;
+}
+.QHHBillDetail .Banner div{
+    padding: 10px 0;
+}

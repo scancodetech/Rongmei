@@ -1,0 +1,292 @@
+.customizedPage {
+    /* min-height: calc(100VH - 50px); */
+    width: 100%;
+    background-color: #111111;
+    color: white;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.pickerListChange {
+    min-height: 30px;
+    width: 200px;
+    height: 30px;
+    flex-basis: 100%;
+    text-align: center;
+    background-color: #333333;
+    border-radius: 3px;
+}
+
+.pickerListChange .am-list-line .am-list-extra {
+    flex-basis: 100%;
+    text-align: center;
+    color: white;
+}
+
+.pickerListChange .am-list-line .am-input-control input {
+    color: white;
+}
+
+/* .imagePickerChange{
+    overflow: hidden;
+} */
+.imagePickerChange .am-image-picker-list .am-image-picker-upload-btn {
+    border: 0;
+    background-color: #333333
+}
+
+.imagePickerChange .am-image-picker-list .am-image-picker-upload-btn-active {
+    background-color: #222222
+}
+
+.imagePickerChange .am-image-picker-list {
+    padding: 0;
+}
+
+.rule>div {
+    font-size: 12px;
+    padding: 3px 0;
+    font-weight: 600;
+    /* word-wrap:normal; */
+}
+
+
+
+.modalChange {
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    bottom: 15px;
+}
+
+
+/* 对话框关闭按钮样式修改 */
+.am-modal-close {
+    padding: 10px 0 0 10px;
+}
+
+/* 微信图标 */
+.wechatIcon {
+    width: 26px;
+    height: 23px;
+    background-image: url('../../../assets/wechat.png');
+    background-size: 100% 100%;
+    align-self: center;
+}
+
+/* 支付宝图标 */
+.alipayIcon {
+    width: 26px;
+    height: 23px;
+    background-image: url('../../../assets/alipay2.png');
+    background-size: 100% 100%;
+    align-self: center;
+}
+
+/* 复选框样式修改 */
+.am-checkbox.am-checkbox-checked .am-checkbox-inner {
+    border-color: #FE2341;
+    background: #FE2341
+}
+
+.am-checkbox-inner {
+    width: 20px;
+    height: 20px;
+}
+
+.am-checkbox-inner:after {
+    top: 2px;
+    right: 6.5px;
+    z-index: 999;
+    width: 5px;
+    height: 10px;
+}
+
+.am-modal-content {
+    color: white;
+    background-color: #222222;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.confirmClass {
+    width: 100%;
+    height: 30px;
+    background-color: #FE2341;
+    color: white;
+    border: 0px solid black;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 0 5px #111111, 0 0 10px #111111, 0 0 20px #111111;
+}
+
+.confirmClass:active {
+    background-color: rgba(254, 35, 65, 0.8);
+    color: rgba(254, 255, 255, 0.8);
+}
+
+.customizedOrderBanner {
+    background-color: #222222;
+}
+
+.customizedOrderBanner div {
+    /* padding: 2px; */
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.customizedOrderBanner .BannerDiv div {
+    padding: 2px;
+    font-size: 12px;
+}
+
+
+.customizedOrderBanner .am-list-body {
+    background-color: #222222;
+}
+
+html:not([data-scale]) .customizedOrderBanner .am-list-body::before {
+    height: 0;
+}
+
+.customizedCardChange .am-card {
+    background-color: #222222;
+}
+
+html:not([data-scale]) .customizedCardChange .am-card:not(.am-card-full)::before {
+    border: 0;
+}
+
+.customizedPage .typeLabel {
+    border: 1px solid #FFB400;
+    color: #FFB400;
+    box-sizing: border-box;
+    width: 75px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    padding: 0;
+    border-radius: 3px;
+}
+
+.customizedPage .customizedOrderBanner .am-list-item .am-list-thumb:first-child {
+    margin-right: 0;
+}
+
+.customizedPage .customizedOrderBanner .am-list-item {
+    background-color: transparent;
+}
+
+.customizedPage .customizedOrderBanner .am-list-item .am-list-line .am-list-extra {
+    flex-basis: 60%;
+}
+
+.customizedPage .customizedOrderBanner .btnChange .am-button {
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color: #FE2341;
+    border-radius: 3px;
+}
+
+.customizedPage .customizedOrderBanner .btnChange .am-button-active {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(254, 35, 65, 0.8);
+}
+
+html:not([data-scale]) .customizedPage .customizedOrderBanner .am-button::before {
+    border: 0;
+}
+
+.customizedPage .am-list-item.am-input-item {
+    height: 30px;
+}
+
+.customizedPage .am-list-item .am-input-control input {
+    font-size: 15px;
+}
+
+.customizedPage .submitBtnChange .am-button {
+    border-radius: 0;
+    background-color: #FF92A1;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+
+.customizedPage .submitBtnChange .am-button.am-button-active {
+    opacity: 0.8;
+}
+
+html:not([data-scale]) .customizedPage .am-button::before {
+    border: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.PHHCustWrap {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.PHHCustModal .am-modal-title {
+    color: white;
+    font-size: 15px;
+}
+
+.PHHCustWrap .am-modal-transparent .am-modal-content .am-modal-body {
+    padding: 0;
+}
+
+.customizedPage .TextareaChange .am-list-item {
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+.customizedPage .TextareaChange .am-textarea-control textarea {
+    color: white;
+    font-size: 16px;
+}
+
+.PHHCustModal .submitBtn .am-button{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin:15px 0;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.PHHCustModal .submitBtn .am-button.am-button-active{
+    opacity: 0.8;
+}
+html:not([data-scale]) .PHHCustModal .submitBtn  .am-button::before{
+    border: 0;
+}
+.PHHCustModal .listItem .am-list-body{
+    background-color: transparent;
+}
+.PHHCustModal .listItem .am-list-item{
+    width: 100%;
+    background-color: #333333;
+    /* border-radius: 5px; */
+}
+.PHHCustModal .listItem .am-list-item .am-list-line .am-list-content{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+html:not([data-scale]) .PHHCustModal .am-list-body div:not(:last-child) .am-list-line::after{
+    height: 0;
+}
+.customizedPage .TextareaChange .am-textarea-control textarea:disabled {
+    background-color: #333333;
+    color: #999999;
+}

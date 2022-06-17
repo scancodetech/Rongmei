@@ -1,0 +1,5 @@
+.CARReportPage {
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-color: #111111;
+}

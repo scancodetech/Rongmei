@@ -1,0 +1,41 @@
+.productionPage {
+    width: 100%;
+    background-color: #111111;
+    height: auto;
+    color: white;
+    padding: 10px 0;
+}
+
+.uploadBtn {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    background-color: #158A31;
+    color: white;
+}
+
+.uploadBtn.am-button.am-button-active {
+    background-color: rgba(255, 152, 38, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.uploadBtn.am-button.am-button-disabled {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(170, 170, 170, 1);
+}
+
+.Time {
+    width: 12px;
+    height: 12px;
+    background-image: url('../../../assets/Time.png');
+    background-size: 100% 100%;
+}
+
+.am-list-body::before {
+    background-color: #111111 !important;
+}
+
+.am-list-body::after {
+    background-color: #111111 !important;
+}

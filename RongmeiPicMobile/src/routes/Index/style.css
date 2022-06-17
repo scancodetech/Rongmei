@@ -1,0 +1,33 @@
+/* 对话框样式修改 */
+.addModalChange{
+    position: absolute;
+    bottom: 0 ;
+    font-weight: 600;
+}
+.addModalChange .am-modal-content .am-modal-body {
+    padding: 0;
+}
+
+.addModalChange .am-modal-content {
+    border-radius: 0;
+    padding: 0;
+    /* background-color: #000000; */
+    height: auto;
+}
+
+.addModalChange .am-button {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+
+html:not([data-scale]) .addModalChange .am-button::before {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.addModalChange .am-button.am-button-active {
+    background-color: #222222;
+    color: white;
+}
+
+/* 对话框样式修改结束 */

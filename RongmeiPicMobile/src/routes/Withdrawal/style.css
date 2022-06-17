@@ -1,0 +1,85 @@
+.withdrawalPage {
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-color: #111111;
+}
+
+.withdrawalBanner {
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.withdrawalLittleBanner {
+    font-size: 12px;
+    color: #AAAAAA;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.withdrawalBanner>.am-list-item {
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+}
+
+.withdrawalBanner>.am-list-item.am-input-item {
+    height: 30px;
+}
+
+.withdrawalInputChange {
+    border-radius: 3px;
+    min-height: 30px;
+    margin-top: 0;
+
+}
+.withdrawalInputChange .am-input-control{
+    margin-top: 0;
+}
+.withdrawalInputChange.am-list-item.am-input-item{
+    height: 30px;
+}
+.withdrawalInputChange .am-list-line{
+    margin-top: 0;
+}
+.withdrawalInputChange.am-list-item {
+    border: 1px solid #FFFFFF;
+}
+html:not([data-scale]) .withdrawalInputChange .am-list-item:not(:last-child) .am-list-line::after{
+    height: 0;
+}
+.withdrawalBanner .am-list-item .am-input-control input{
+    color:white;
+}
+
+.withdrawalBanner div{
+    margin-top: 5px;
+}
+.withdrawalRadioItemChange div{
+    margin-top: 0;
+}
+.withdrawalRadioItemChange .am-list-item .am-list-line .am-list-content{
+    font-size: 15px;
+    color: white;
+}
+.withdrawalRadioItemChange .am-list-item{
+    background-color: black;
+}
+html:not([data-scale]) .withdrawalRadioItemChange .am-list-item:not(:last-child) .am-list-line::after{
+    height: 0;
+}
+.withdrawalBtnChange .am-button{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    width: 180px;
+    font-weight: 600;
+    color: white;
+    background-color: #FE2341;
+}
+
+.withdrawalBtnChange .am-button.am-button-active{
+    color: white;
+    background-color: #FE2341;
+    opacity: 0.8;
+}

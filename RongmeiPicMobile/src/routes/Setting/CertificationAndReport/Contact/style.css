@@ -1,0 +1,18 @@
+.contactPage {
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-color: #111111;
+}
+
+.CARContactDivStyle div {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.CARContactUSIcon{
+    background-image: url('../../../../assets/CARContactUSIcon.png');
+    width: 145px;
+    height: 145px;
+    background-size: 100% 100%;
+}

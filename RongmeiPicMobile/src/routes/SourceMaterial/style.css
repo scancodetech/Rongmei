@@ -1,0 +1,56 @@
+.SourceMaterialPage {
+    min-height: calc(100VH - 50px);
+    background-color: #111111;
+    padding-bottom: 50px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.SourceMaterialPage .detailInfo div {
+    padding-top: 2px;
+}
+
+.SourceMaterialPage .classification {
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    color: #333333;
+    height: 25px;
+    min-width: 70px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.SourceMaterialPage .banner {
+    padding: 10px;
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+}
+
+.watchCertificationModal .am-modal-content {
+    background-color: #222;
+}
+
+.SourceMaterialPage .buyBtn .am-button {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fe2341;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.SourceMaterialPage .buyBtn .am-button.am-button-active{
+    background-color: rgba(254, 35, 65, 0.8);
+}
+html:not([data-scale]) .SourceMaterialPage .buyBtn .am-button::before{
+    border: 0;
+}

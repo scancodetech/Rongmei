@@ -1,0 +1,121 @@
+.RegisterAvatarPage {
+    background-color: #222222;
+    min-height: 100VH;
+    width: 100%;
+}
+
+.RegisterAvatarPage .ImagePickerChange .am-image-picker-list {
+    padding: 0;
+}
+
+.RegisterAvatarPage .ImagePickerChange .addImg {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: #fe2341;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    /* 事件穿透 */
+    pointer-events: none;
+}
+
+.RegisterAvatarPage .ImagePickerChange .addImg::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    /* height: 1px; */
+    outline: 1px solid #FFF;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.RegisterAvatarPage .ImagePickerChange .addImg::after {
+    content: '';
+    position: absolute;
+    height: 10px;
+    /* height: 1px; */
+    outline: 1px solid #FFF;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.RegisterAvatarPage .ImagePickerChange .am-image-picker-list .am-image-picker-upload-btn {
+    border: 0;
+    background-color: black;
+    border-radius: 50%;
+    background-image: url('../../../assets//camera.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.RegisterAvatarPage .am-image-picker-list .am-image-picker-item .am-image-picker-item-content {
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+}
+
+.RegisterAvatarPage .am-image-picker-list .am-image-picker-item .am-image-picker-item-remove {
+    width: 20px;
+    height: 20px;
+    background-size: 20px auto;
+}
+
+.am-image-picker-list .am-image-picker-upload-btn:before,
+.am-image-picker-list .am-image-picker-upload-btn:after {
+    width: 0;
+    height: 0;
+}
+
+.RegisterAvatarPage .inputItemChange {
+    padding: 15px 0;
+}
+
+.RegisterAvatarPage .inputItemChange .am-list-item {
+    min-height: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 7px;
+    width: 260px;
+
+}
+
+.RegisterAvatarPage .inputItemChange .am-list-item .am-input-control input {
+    color: white;
+    text-align: center;
+}
+
+.RegisterAvatarPage .submit {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.RegisterAvatarPage .submit .am-button {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: #fe2341;
+    color: white;
+    font-size: 18px;
+}
+
+html:not([data-scale]) .RegisterAvatarPage .submit .am-button::before {
+    border: 0;
+}
+
+.RegisterAvatarPage .submit .am-button.am-button-active {
+    opacity: 0.8;
+}
+
+.RegisterAvatarPage .submit .am-button.am-button-disabled {
+    background-color: #FFB3BD;
+    opacity: 1;
+}

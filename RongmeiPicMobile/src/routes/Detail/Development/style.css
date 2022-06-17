@@ -1,0 +1,109 @@
+.developmentPage {
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    min-height: calc(100VH - 50px);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.textDivChange div {
+    padding: 2px 0;
+}
+
+.developmentPage ul {
+    position: relative;
+    /* margin-top: 20px; */
+}
+
+.developmentPage li {
+    position: relative;
+}
+
+.developmentPage ul::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    border-right: 2px dashed #fe2341;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 100%;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.developmentPage ul:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    border-right: 2px dashed #fe2341;
+    transform: translateX(-50%);
+    width: 3px;
+    height: calc(100% - 25px);
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.developmentPage li::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    background-color: #FE2341;
+    /* transform: translateX(1.5px); */
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.developmentPage li::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 13px;
+    /* background-color: #FE2341; */
+    border: 1px solid #FE2341;
+    box-sizing: border-box;
+    /* transform: translateX(calc(100% + 1px)); */
+    width: 25px;
+    height: 25px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+
+
+.developmentPage .am-card {
+    background-color: #111111;
+}
+
+.developmentPage .am-card div::before {
+    height: 0;
+}
+
+.developmentPage .am-card div::after {
+    height: 0;
+}
+
+html:not([data-scale]) .developmentPage .am-card.am-card-full::before {
+    height: 0;
+}
+
+html:not([data-scale]) .developmentPage .am-card.am-card-full::after {
+    height: 0;
+}
+
+.developmentPage .am-card-header-content {
+    color: white;
+}
+
+.developmentPage .am-list-body {
+    background-color: #111111;
+}

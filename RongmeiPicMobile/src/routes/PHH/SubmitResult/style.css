@@ -1,0 +1,24 @@
+.submitPage{
+    height: calc(100VH - 50px);
+    width: 100%;
+    background-color: #111111;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.submitLogo{
+    /* display: inline-block; */
+    margin-top: 30%;
+    width: 150px;
+    height: 150px;
+    background-image: url('../../../assets/phhSubmitSuccess.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%; */
+    /* transform: translate3d(-50%,-50%,0); */
+}

@@ -1,0 +1,106 @@
+.MinePHHPage {
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-color: #111111;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.MinePHHPage>.orderCard {
+    margin-top: 15px;
+}
+
+.MinePHHPage>.orderCard .am-card {
+    background-color: #222222;
+}
+
+.MinePHHPage>.orderCard .am-card-header-content {
+    color: white;
+}
+
+.MinePHHPage>.orderCard .am-card-header {
+    font-size: 16px;
+}
+
+.MinePHHPage>.orderCard .am-card-header-extra {
+    font-size: 13px;
+    color: #DDDDDD;
+}
+
+html:not([data-scale]) .MinePHHPage>.orderCard .am-card:not(.am-card-full)::before {
+    border: 0;
+}
+
+/* .MinePHHBadgeChange .am-badge-text{
+    background-color: white;
+    color: #FE2341;
+    border: 1px solid #FE2341;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+} */
+
+.MinePHHPage .am-grid .am-flexbox {
+    background-color: #222222;
+}
+
+.MinePHHPage .am-card-body {
+    padding: 0 15px 6px;
+}
+
+.MinePHHPage .MinePHHPopover {
+    background-color: #FFE1E1;
+    border-radius: 5px;
+    min-height: 35px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.MinePHHPage .MinePHHPopover::before {
+    content: '';
+    height: 16px;
+    width: 16px;
+    background-color: #FFE1E1;
+    position: absolute;
+    left: calc(30% - 8px);
+    top: -8px;
+    transform: rotate(45deg)
+}
+
+.MinePHHPage .am-list-item {
+    background-color: #FFE1E1;
+}
+
+html:not([data-scale]) .MinePHHPage .am-list-body::before {
+    height: 0;
+}
+
+html:not([data-scale]) .MinePHHPage .am-list-body::after {
+    height: 0;
+}
+
+.MinePHHPage .am-list-body {
+    background-color: #FFE1E1;
+    border-radius: 7px;
+}
+
+.MinePHHPage .am-list-item .am-list-line .am-list-content {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.MinePHHPopoverBtnChange .am-button {
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    background-color: #FE2341;
+    color: white;
+    font-weight: 600;
+}
+
+.MinePHHPopoverBtnChange .am-button.am-button-active{
+    opacity: 0.8;
+}

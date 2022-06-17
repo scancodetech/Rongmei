@@ -1,0 +1,23 @@
+.QHHMinePage{
+    min-height: calc(100VH - 50px);
+    background-color: #111111;
+}
+
+.QHHMinePage .avatar{
+    margin-top: 20px;
+}
+
+.QHHMinePage .banner{
+    width: 100%;
+    margin: 15px 0;
+    height: 100px;
+    background-color: #222222;
+}
+
+.QHHMinePage .title{
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}

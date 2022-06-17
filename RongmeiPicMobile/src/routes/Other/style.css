@@ -1,0 +1,54 @@
+.otherPage {
+    /* min-height: calc(100VH - 50px); */
+    background-color: #111111;
+    /* margin-bottom: 50px; */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.otherPage>.headerBanner {
+    width: 100%;
+    /* height: 219px; */
+    height: auto;
+    /* object-fit: cover; */
+    background-image: url('../../assets/otherBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.otherPage .am-card {
+    background-color: transparent;
+    /* padding-bottom: 20px; */
+}
+
+.otherPage .am-card-header {
+    padding: 0 15px;
+}
+
+html:not([data-scale]) .otherPage .am-card.am-card-full::before,
+html:not([data-scale]) .otherPage .am-card.am-card-full::after,
+html:not([data-scale]) .otherPage .am-card-body::before {
+    height: 0;
+}
+
+.otherPage .followBtn {
+    padding: 10px 0;
+}
+
+.otherPage .followBtn .am-button {
+    background-color: #FE2341;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+
+html:not([data-scale]) .otherPage .followBtn .am-button::before {
+    border: 0;
+}

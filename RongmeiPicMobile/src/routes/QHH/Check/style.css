@@ -1,0 +1,47 @@
+.checkPage {
+    width: 100%;
+    background-color: #111111;
+    color: white;
+    padding: 10px 0;
+}
+
+.checkPart {
+    width: 100%;
+    min-height: 400px;
+    background-color: #222222;
+    border-top: 2px solid #333333;
+}
+
+.checkPart div {
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.checkImgBanner {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.opinionClass {
+    background-color: #333333;
+    line-height: 15px;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 45px;
+}
+
+.checkGoodIcon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../assets/good.png');
+    background-size: 100% 100%;
+}
+
+.am-list-body::before {
+    background-color: #111111 !important;
+}
+
+.am-list-body::after {
+    background-color: #111111 !important;
+}

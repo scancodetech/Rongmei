@@ -1,0 +1,92 @@
+.login-page {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /* background: #000000; */
+    background: #000000 url('../../assets/loginBg.webp');
+    background-size: 100% 100%;
+    color: white;
+    /* mix-blend-mode: soft-light; */
+    /* opacity: 0.8; */
+    /* background-color: rgba(0, 0, 0,  0.3); */
+}
+
+.login-page .am-list-item {
+    border-radius: 5px;
+    min-height: 35px;
+}
+
+.login-page .am-list-item.am-input-item {
+    height: 35px;
+}
+
+.login-page .am-list-item .am-input-control input {
+    font-size: 15px;
+}
+
+html:not([data-scale]) .login-page .am-button::before {
+    border: 0;
+}
+
+.login-page .am-button.am-button-disabled {
+    opacity: 0.8;
+}
+
+.shareCodeInputItem {
+    width: 250px;
+}
+
+.login-page .shareCodeInputItem .am-list-item.am-input-item.am-list-item-middle {
+    height: 45px;
+    /* width: 100%; */
+}
+
+/* .login-page .shareCodeInputItem .am-list-item{
+    background-color: inherit;
+} */
+.login-page .shareCodeInputItem .am-list-item .am-list-line {
+    /* padding-right: 15px; */
+}
+
+.login-page .shareCodeInputItem .am-list-item.am-input-item {
+    /* padding-left: 15px; */
+}
+.login-page .shareCodeInputItem .am-list-item .am-input-control input{
+    font-size: 25px;
+    color: #fe2341;
+    caret-color: black;
+    text-align: center;
+
+}
+
+/* .login-page .shareCodeInputItem .am-list-item .am-input-control input {
+    font-size: 20px !important;
+    color: #fe2341;
+    letter-spacing:50px;
+    caret-color: transparent;
+} */
+.login-page .shareCodeInputItem input {
+    /* width: 260px; */
+    /* margin-left: 50px; */
+    /* caret-color: transparent; */
+    height: 45px;
+    font-size: 20px;
+}
+
+.login-page .shareCodeDiv {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    background-color: white;
+    border-radius: 5px;
+    /* z-index: 2; */
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.login-page .shareCodeDivInputed {
+    border: 2px solid #FE2341;
+}

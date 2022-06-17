@@ -1,0 +1,25 @@
+.QHHEditInfoPage {
+    min-height: calc(100VH - 50px);
+    background-color: #111111;
+}
+
+.QHHEditInfoPage .banner {
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.QHHEditInfoPage .banner .am-list-item {
+    min-height: 30px;
+    background-color: #333333;
+}
+
+.QHHEditInfoPage .banner .am-list-item.am-input-item {
+    height: 30px;
+}
+.QHHEditInfoPage .banner .am-list-item .am-input-control input{
+    color: white;
+}
+.QHHEditInfoPage .banner .am-textarea-control textarea{
+    color: white;
+}

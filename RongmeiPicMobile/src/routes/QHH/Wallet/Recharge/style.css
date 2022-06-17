@@ -1,0 +1,91 @@
+.QHHWalletRecharge {
+    min-height: calc(100VH - 50px);
+    background-color: #111111;
+}
+
+.QHHWalletRecharge .am-list-body {
+    background-color: transparent;
+}
+
+.QHHWalletRecharge .am-list-item {
+    background-color: black;
+}
+
+html:not([data-scale]) .QHHWalletRecharge .am-list-body::before {
+    height: 0;
+}
+
+html:not([data-scale]) .QHHWalletRecharge .am-list-body::after {
+    height: 0;
+}
+
+.QHHWalletRecharge .am-list-item .am-list-line .am-list-content {
+    color: white;
+    font-weight: 600;
+}
+
+.QHHWalletRecharge .title {
+    padding: 15px 15px 0 15px;
+    display: flex;
+    justify-self: start
+}
+
+.QHHWalletRecharge .BtnChange .am-button {
+    width: 65px;
+    height: 25px;
+    border-radius: 3px;
+    line-height: 23px;
+    background-color: transparent;
+    color: #AAAAAA;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+
+}
+
+.QHHWalletRecharge .BtnChange .am-button:active,
+.QHHWalletRecharge .BtnChange .am-button:hover {
+    color: white;
+    border: 0;
+    background-color: #fe2341;
+    height: 25px;
+    line-height: 25px;
+
+}
+
+.QHHWalletRecharge .BtnChange .am-button.am-button-active {
+    color: white;
+    border: 0;
+    background-color: #fe2341;
+    height: 25px;
+    line-height: 25px;
+}
+
+html:not([data-scale]) .QHHWalletRecharge .BtnChange .am-button::before {
+    border: 0 solid #AAAAAA;
+}
+
+html:not([data-scale]) .QHHWalletRecharge .am-list-body div:not(:last-child) .am-list-line::after {
+    height: 0;
+}
+
+.QHHWalletRecharge .am-checkbox.am-checkbox-checked  .am-checkbox-inner {
+    background-color: #fe2341;
+    border-color: #fe2341;
+}
+.QHHWalletRecharge .reChargeBtn .am-button{
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: #fe2341;
+    font-size: 14px;
+    font-weight: 600;
+}
+.QHHWalletRecharge .reChargeBtn .am-button.am-button-active{
+    opacity: 0.8;
+}
+html:not([data-scale]) .QHHWalletRecharge .reChargeBtn .am-button::before{
+    border: 0;
+}

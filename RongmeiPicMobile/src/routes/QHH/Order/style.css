@@ -1,0 +1,122 @@
+.orderPage {
+    width: 100%;
+    background-color: #111111;
+    height: auto;
+    color: white;
+    padding: 10px 0;
+    /* min-height: calc(100VH - 175px); */
+}
+
+.orderBanner {
+    width: 100%;
+    /* min-height: 250px; */
+    background-color: #222222;
+    border-radius: 5px;
+}
+
+.circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #FF4C00;
+    line-height: 13px;
+}
+
+.orderBanner > div {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+/* .orderBanner div{
+    padding: 5px 0;
+    margin-top: 10px;
+    font-size: 12px;
+} */
+.requirement > div {
+    padding: 5px 0;
+    word-wrap: break-word;
+}
+
+.imgClass {
+    width: 110px;
+    min-height: 110px;
+    object-fit: contain;
+    background-color: #222222;
+    justify-self: end;
+    align-self: flex-end;
+}
+
+.orderBtn {
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    background-color: #FFFF00;
+}
+
+.orderBtn.am-button.am-button-active {
+    background-color: rgba(255, 152, 38, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.orderModalChange {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.orderModalChange.am-modal.am-modal-transparent .am-modal-content {
+    border-radius: 0;
+    height: 667px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.orderModalChange .am-modal-close {
+    /* padding: 10px 10px; */
+    /* margin-top: 15px; */
+    padding: 15px 5px;
+}
+
+.modalImgClass {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: #222222;
+}
+
+.orderModalChange .am-modal-content .am-modal-body {
+    padding: 0;
+}
+
+.am-list-body::before {
+    background-color: #111111 !important;
+}
+
+.am-list-body::after {
+    background-color: #111111 !important;
+}
+
+.modalDownLoadBtn {
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.modalDownLoadBtn .am-button {
+    color: white;
+    background-color: #FE2341;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.modalDownLoadBtn .am-button.am-button-active {
+    color: white;
+    background-color: rgba(220, 35, 65, 1);
+}

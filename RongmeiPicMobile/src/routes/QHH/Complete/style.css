@@ -1,0 +1,34 @@
+.completePage {
+    width: 100%;
+    background-color: #111111;
+    height: auto;
+    color: white;
+    padding: 10px 0;
+}
+
+html:not([data-scale]) .completePage .am-list-body::before {
+    height: 0
+}
+
+html:not([data-scale]) .completePage .am-list-body::after {
+    height: 0
+}
+
+.completePage .am-list-body {
+    background-color: #111111;
+}
+
+.completeNextIcon {
+    background-image: url('../../../assets/completeNextIcon.png');
+    width: 26px;
+    height: 12px;
+    background-size: 100% 100%;
+}
+
+.am-list-body::before {
+    background-color: #111111 !important;
+}
+
+.am-list-body::after {
+    background-color: #111111 !important;
+}

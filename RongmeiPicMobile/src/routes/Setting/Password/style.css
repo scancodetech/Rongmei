@@ -1,0 +1,37 @@
+.passwordPage {
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-color: #111111;
+}
+
+.BannerTitle {
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    background-color: #000000;
+    font-size: 15px;
+}
+
+.passwordPage .BannerTitle .am-list-item {
+    background-color: #222222;
+    min-height: 30px;
+}
+.passwordPage .BannerTitle .am-list-item.am-input-item{
+    height: 30px;
+}
+.passwordPage .BannerTitle .am-list-item .am-input-control input{
+    color: white;
+}
+.passwordBtnChange .am-button{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #FE2341;
+    color: white;
+}
+.passwordBtnChange .am-button.am-button-active{
+    opacity: 0.8;
+}

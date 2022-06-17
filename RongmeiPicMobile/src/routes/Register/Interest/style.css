@@ -1,0 +1,67 @@
+.RegisterInterestPage {
+    background-color: #222222;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.RegisterInterestPage .gridIcon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid black;
+    top: 5px;
+    right: 10px;
+    box-sizing: border-box;
+}
+
+.RegisterInterestPage .gridIcon-active {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #FE2341;
+    top: 5px;
+    right: 10px;
+}
+
+
+.RegisterInterestPage .gridChange .am-grid .am-flexbox {
+    background-color: transparent;
+}
+
+.RegisterInterestPage .submit {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterInterestPage .submit .am-button {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: #fe2341;
+    color: white;
+    font-size: 18px;
+}
+
+.RegisterInterestPage .submit .am-button.am-button-active {
+    opacity: 0.8;
+}
+.RegisterInterestPage .submit .am-button.am-button-disabled {
+    background-color: #FFB3BD;
+    opacity: 1;
+}
+
+html:not([data-scale]) .RegisterInterestPage .submit .am-button::before {
+    border: 0;
+}

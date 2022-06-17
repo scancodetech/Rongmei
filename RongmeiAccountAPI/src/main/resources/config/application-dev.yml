@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+
+
+unzipPath: D:\workspaceweb
+
+file:
+  url: D:\workspaceweb\static\

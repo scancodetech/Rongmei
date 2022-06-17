@@ -1,0 +1,212 @@
+.MinePHHOrderList {
+    min-height: calc(100VH - 50px);
+    width: 100VW;
+    background-color: #111111;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.MinePHHOrderListRenderRow {
+    background-color: #222222;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+html:not([data-scale]) .MinePHHOrderList .am-list-body::before {
+    height: 0;
+}
+
+html:not([data-scale]) .MinePHHOrderList .am-list-body::after {
+    height: 0;
+}
+
+.MinePHHOrderList .am-list-body {
+    background-color: #111111;
+    border-radius: 5px;
+}
+
+.MinePHHOrderListPIcon {
+    background-image: url('../../../assets/PIcon.png');
+    width: 22px;
+    height: 22px;
+    background-size: 100% 100%;
+}
+
+html:not([data-scale]) .MinePHHOrderListRenderRow .am-card:not(.am-card-full)::before {
+    border: 0;
+}
+
+.MinePHHOrderListRenderRow .am-card {
+    background-color: #222222;
+    margin-top: 10px;
+}
+
+.MinePHHOrderListRenderRow .am-card-header {
+    padding: 0;
+}
+
+html:not([data-scale]) .MinePHHOrderListRenderRow .am-card-body::before {
+    height: 0;
+}
+
+.MinePHHOrderListRenderRow .am-card-body {
+    padding: 10px 0 0 0;
+}
+
+.MinePHHOrderListBodydiv div {
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 125px;
+}
+
+.MinePHHOrderListBtnChange div {
+    padding: 0 0 0 10px;
+}
+
+.MinePHHOrderListBtnChange .am-button {
+    height: 20px;
+    width: 70px;
+    line-height: 20px;
+    font-size: 12px;
+    /* margin-left: 15px; */
+}
+
+.MinePHHOrderListRenderRow .am-card-footer {
+    padding: 5px 0;
+}
+
+.MinePHHOrderListRenderRow .cancel .am-button {
+    background-color: #222222;
+    color: #AAAAAA;
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+    line-height: 18px;
+}
+
+.MinePHHOrderListRenderRow .confirm .am-button {
+    background-color: #FFFF00;
+    box-sizing: border-box;
+}
+
+.MinePHHOrderListRenderRow .cancel .am-button.am-button-active {
+    background-color: #333333;
+    opacity: 0.8;
+}
+
+.MinePHHOrderListRenderRow .confirm .am-button.am-button-active {
+    opacity: 0.8;
+}
+
+
+.MinePHHOrderListBtnChange .share .am-button {
+    background-color: #FFFF00;
+    box-sizing: border-box;
+    width: 80px;
+}
+
+.MinePHHOrderListRenderRow .share .am-button.am-button-active {
+    opacity: 0.8;
+}
+
+.MinePHHOrderListModalPay .am-modal-content {
+    background-color: #222222;
+    font-size: 13;
+    font-weight: 600;
+    color: white;
+}
+
+.MinePHHOrderListModalPay .am-list-item {
+    background-color: #222222;
+    color: white;
+}
+
+html:not([data-scale]) .MinePHHOrderListModalPay .am-list-body::after {
+    /* height: 0; */
+}
+
+html:not([data-scale]) .MinePHHOrderListModalPay .am-list-body::before {
+    /* height: 0; */
+}
+
+.MinePHHOrderListModalPay .am-list-body {
+    background-color: #222222;
+    color: white;
+}
+
+.MinePHHOrderListModalPay .am-list-item .am-list-line .am-list-content {
+    color: white;
+}
+
+.MinePHHOrderListModalPay .am-radio-inner:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-width: medium;
+}
+
+html:not([data-scale]) .MinePHHOrderListModalPay .am-list-body div:not(:last-child) .am-list-line::after {
+    height: 0;
+}
+
+.MinePHHOrderListModalPay .am-list .am-list-item.am-radio-item .am-list-line .am-list-extra .am-radio-inner {
+    right: 0;
+    top: 8px;
+}
+
+.MinePHHOrderListpayBtn .am-button {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: #FE2341;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.MinePHHOrderListpayBtn .am-button.am-button-active {
+    opacity: 0.8;
+}
+
+.MinePHHOrderListModalShare {
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.MinePHHOrderListModalPay .am-grid .am-flexbox {
+    background-color: transparent;
+}
+
+.MinePHHOrderListModalPay .am-grid.am-grid-square {
+    margin-top: 10px;
+}
+
+.MinePHHOrderListModalOrderBg {
+    background-image: url('../../../assets/orderlistBg.png');
+    background-size: contain;
+    background-position-x: 80%;
+    background-position-y: 10%;
+    width: 500px;
+    height: 80px;
+    background-repeat: no-repeat;
+}
+
+.MinePHHOrderListactiveclass {
+    background-color: #111111;
+    border-radius: 7px;
+}
+
+.MinePHHOrderListGridTextChange .am-grid .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content.column-num-3 .am-grid-text {
+    color: white;
+    font-size: 13px;
+}

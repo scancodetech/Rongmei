@@ -1,0 +1,7 @@
+.ant-btn {
+    border-radius: 10px;
+}
+.ant-btn > span {
+    padding-left: 0;
+    padding-right: 0;
+}

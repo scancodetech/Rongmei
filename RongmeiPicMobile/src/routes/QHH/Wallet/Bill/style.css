@@ -1,0 +1,94 @@
+.QHHWalletBill {
+    min-height: calc(100VH - 50px);
+    background-color: #111111;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.QHHWalletBill .PickerChange .am-list-item .am-list-line .am-list-extra {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.QHHWalletBill .PickerChange {
+    width: 120px;
+    /* height: 35px; */
+
+}
+
+.QHHWalletBill .PickerChange .am-list-item {
+    background-color: transparent;
+    border-bottom: 1px solid #999999;
+    min-height: 30px;
+}
+
+.QHHWalletBill .PickerChange .am-list-item .am-list-line {
+    padding-right: 0;
+}
+
+.QHHWalletBill .PickerChange .am-list-item .am-list-line .am-list-extra {
+    font-size: 12px;
+}
+
+.QHHWalletBill .DatePickerChange .am-list-item .am-list-line .am-list-extra {
+    flex-basis: auto;
+    text-align: left;
+    color: white;
+}
+
+.QHHWalletBill .DatePickerChange {
+    width: 100%
+}
+
+html:not([data-scale]) .DatePickerChange .am-list-body div:not(:last-child) .am-list-line::after {
+    height: 0px;
+}
+
+.QHHWalletBill .DatePickerChange .am-list-item {
+    background-color: transparent;
+}
+
+.QHHWalletBill .DatePickerChange .am-list-body {
+    background-color: #232323;
+}
+
+html:not([data-scale]) .QHHWalletBill .DatePickerChange .am-list-body::before {
+    height: 0;
+}
+
+html:not([data-scale]) .QHHWalletBill .DatePickerChange .am-list-body::after {
+    height: 0;
+}
+
+
+.QHHWalletBill .ListChange .am-list-item.am-list-item-middle .am-list-line {
+    padding: 0;
+}
+
+.QHHWalletBill .ListChange .am-list-item .am-list-line .am-list-brief {
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.QHHWalletBill .ListChange .am-list-item .am-list-line .am-list-extra {
+    padding-right: 15px;
+    /* font-size: 15px; */
+    font-weight: 600;
+}
+
+html:not([data-scale]) .QHHWalletBill .ListChange .am-list-body div:not(:last-child) .am-list-line::after {
+    height: 0;
+}
+
+html:not([data-scale]) .QHHWalletBill .ListChange .am-list-item:not(:last-child) .am-list-line::after {
+    height: 0;
+}
+
+.QHHWalletBill .ListChange .am-list-item {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

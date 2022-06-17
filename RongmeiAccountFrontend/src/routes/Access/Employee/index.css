@@ -1,0 +1,9 @@
+.contentShow .ant-card-body{
+    padding: 24px 0;
+}
+ul.ant-pagination.ant-table-pagination{
+    margin-right: 24px;
+}
+.ant-btn {
+    border-radius: 10px;
+}
